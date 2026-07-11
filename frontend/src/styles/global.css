@@ -1,0 +1,351 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#667eea,#764ba2);
+    min-height:100vh;
+    color:#222;
+}
+
+/* Navbar */
+
+.navbar{
+    background:rgba(255,255,255,.15)!important;
+    backdrop-filter:blur(15px);
+    box-shadow:0 8px 32px rgba(0,0,0,.15);
+}
+
+.navbar-brand{
+    color:white!important;
+    font-size:28px;
+    font-weight:700;
+}
+
+.nav-link{
+    color:white!important;
+    font-weight:500;
+}
+
+/* Cards */
+
+.card{
+
+    border:none;
+    border-radius:20px;
+
+    background:rgba(255,255,255,.18);
+
+    backdrop-filter:blur(18px);
+
+    box-shadow:0 10px 30px rgba(0,0,0,.15);
+
+    transition:.35s;
+
+}
+
+.card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 20px 40px rgba(0,0,0,.25);
+
+}
+
+/* Dashboard */
+
+.dashboard-card{
+
+    padding:25px;
+
+    text-align:center;
+
+    border-radius:20px;
+
+    color:white;
+
+    transition:.3s;
+
+}
+
+.dashboard-card h2{
+
+    font-size:45px;
+
+}
+
+.dashboard-card:hover{
+
+    transform:scale(1.05);
+
+}
+
+/* Buttons */
+
+.btn{
+
+    border-radius:30px;
+
+    padding:10px 25px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.btn-primary{
+
+    background:#4f46e5;
+
+    border:none;
+
+}
+
+.btn-primary:hover{
+
+    background:#4338ca;
+
+}
+
+.btn-success{
+
+    background:#10b981;
+
+    border:none;
+
+}
+
+.btn-success:hover{
+
+    background:#059669;
+
+}
+
+.btn-danger{
+
+    border:none;
+
+    background:#ef4444;
+
+}
+
+.btn-danger:hover{
+
+    background:#dc2626;
+
+}
+
+/* Forms */
+
+.form-control{
+
+    border-radius:15px;
+
+    padding:14px;
+
+    border:none;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+
+}
+
+.form-control:focus{
+
+    border:none;
+
+    box-shadow:0 0 0 3px rgba(99,102,241,.25);
+
+}
+
+/* Login & Register */
+
+.auth-card{
+
+    max-width:480px;
+
+    margin:60px auto;
+
+    padding:40px;
+
+}
+
+.auth-card h2{
+
+    font-weight:700;
+
+    color:#4f46e5;
+
+}
+
+/* Course Cards */
+
+.course-card{
+
+    height:100%;
+
+    overflow:hidden;
+
+}
+
+.course-card h4{
+
+    font-weight:700;
+
+    color:#4f46e5;
+
+}
+
+.course-card p{
+
+    color:#555;
+
+}
+
+.price{
+
+    color:#16a34a;
+
+    font-size:24px;
+
+    font-weight:700;
+
+}
+
+.course-card button{
+
+    margin-top:10px;
+
+}
+
+/* Table */
+
+.table{
+
+    background:white;
+
+    border-radius:15px;
+
+    overflow:hidden;
+
+}
+
+.table th{
+
+    background:#4f46e5;
+
+    color:white;
+
+}
+
+.table td{
+
+    vertical-align:middle;
+
+}
+
+/* Heading */
+
+.page-title{
+
+    color:white;
+
+    font-weight:700;
+
+    margin-bottom:30px;
+
+    text-align:center;
+
+}
+
+/* Welcome */
+
+.welcome{
+
+    color:white;
+
+    font-size:40px;
+
+    font-weight:700;
+
+}
+
+/* Icons */
+
+.icon{
+
+    font-size:45px;
+
+}
+
+/* Animation */
+
+.fade-in{
+
+    animation:fade .6s ease;
+
+}
+
+@keyframes fade{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(25px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+
+/* Footer */
+
+.footer{
+
+    text-align:center;
+
+    color:white;
+
+    padding:25px;
+
+    margin-top:60px;
+
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+.dashboard-card{
+
+margin-bottom:20px;
+
+}
+
+.welcome{
+
+font-size:30px;
+
+}
+
+.card{
+
+margin-bottom:20px;
+
+}
+
+}
